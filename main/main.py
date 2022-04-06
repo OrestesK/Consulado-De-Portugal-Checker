@@ -44,7 +44,7 @@ WebDriverWait(driver, 5).until(
 email = driver.find_element(
     By.XPATH, '//*[@id="scheduleForm:email"]')
 email.clear()
-email.send_keys("oresteskassian@gmail.com")
+email.send_keys("email") #email goes here
 
 categoria = driver.find_element(
     By.XPATH, '//*[@id="scheduleForm:categato_label"]').click()
