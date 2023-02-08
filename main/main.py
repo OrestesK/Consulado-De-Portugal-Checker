@@ -25,7 +25,7 @@ WebDriverWait(driver, 5).until(
     EC.presence_of_element_located((By.XPATH, '//*[@id="scheduleForm:postcons_label"]')))
 
 cookie = driver.find_element(By.XPATH,
-    '//*[@id="j_idt313"]').click()
+'//*[@id="j_idt316"]').click()
 
 posto = driver.find_element(By.XPATH,'//*[@id="scheduleForm:postcons_label"]').click()
 
